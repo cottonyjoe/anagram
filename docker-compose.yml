@@ -1,0 +1,8 @@
+version: "2"
+services:
+
+  test:
+    build: test/
+    volumes:
+     - ./test:/scripts/
+    entrypoint: /bin/bash
